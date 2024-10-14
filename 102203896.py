@@ -177,7 +177,7 @@ def process_mashup(singer_name, num_videos, trim_duration, recipient_email, outp
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('index1.html')
 
 @app.route('/generate_mashup', methods=['POST'])
 def generate_mashup():
